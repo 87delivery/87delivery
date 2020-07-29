@@ -4,14 +4,15 @@ import java.util.Date;
 
 public class parcel {
    int pid;
-   String pName;
-   String pSize;
-   String pQuality;
-   Date pDate;
+   String pname;
+   String psize;
+   String pquality;
+   Date pdate;
+   int paymoney;
    String host;
    String address;
-   String arriveAddress;
-   String other;
+   String arriveaddress;
+   String others;
 
     public int getPid() {
         return pid;
@@ -21,36 +22,12 @@ public class parcel {
         this.pid = pid;
     }
 
-    public String getpName() {
-        return pName;
+    public int getPaymoney() {
+        return paymoney;
     }
 
-    public void setpName(String pName) {
-        this.pName = pName;
-    }
-
-    public String getpSize() {
-        return pSize;
-    }
-
-    public void setpSize(String pSize) {
-        this.pSize = pSize;
-    }
-
-    public String getpQuality() {
-        return pQuality;
-    }
-
-    public void setpQuality(String pQuality) {
-        this.pQuality = pQuality;
-    }
-
-    public Date getpDate() {
-        return pDate;
-    }
-
-    public void setpDate(Date pDate) {
-        this.pDate = pDate;
+    public void setPaymoney(int paymoney) {
+        this.paymoney = paymoney;
     }
 
     public String getHost() {
@@ -69,19 +46,51 @@ public class parcel {
         this.address = address;
     }
 
-    public String getArriveAddress() {
-        return arriveAddress;
+    public String getPname() {
+        return pname;
     }
 
-    public void setArriveAddress(String arriveAddress) {
-        this.arriveAddress = arriveAddress;
+    public void setPname(String pname) {
+        this.pname = pname;
     }
 
-    public String getOther() {
-        return other;
+    public String getPsize() {
+        return psize;
     }
 
-    public void setOther(String other) {
-        this.other = other;
+    public void setPsize(String psize) {
+        this.psize = psize;
+    }
+
+    public String getPquality() {
+        return pquality;
+    }
+
+    public void setPquality(String pquality) {
+        this.pquality = pquality;
+    }
+
+    public Date getPdate() {
+        return pdate;
+    }
+
+    public void setPdate(Date pdate) {
+        this.pdate = pdate;
+    }
+
+    public String getArriveaddress() {
+        return arriveaddress;
+    }
+
+    public void setArriveaddress(String arriveaddress) {
+        this.arriveaddress = arriveaddress;
+    }
+
+    public String getOthers() {
+        return others;
+    }
+
+    public void setOthers(String others) {
+        this.others = others;
     }
 }

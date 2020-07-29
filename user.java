@@ -2,9 +2,9 @@ package com.nenu.delivery.entity;
 
 public class user {
     String uid;
-    String userName;
-    String userPsd;
-    String payPsd;
+    String uname;
+    String upsd;
+    int paypsd;
     String sex;
     String school;
     String phone;
@@ -14,6 +14,7 @@ public class user {
     String friends;
     String praise;
     String share;
+    String signin;
 
     public String getShare() {
         return share;
@@ -29,30 +30,6 @@ public class user {
 
     public void setUid(String uid) {
         this.uid = uid;
-    }
-
-    public String getUserName() {
-        return userName;
-    }
-
-    public void setUserName(String userName) {
-        this.userName = userName;
-    }
-
-    public String getUserPsd() {
-        return userPsd;
-    }
-
-    public void setUserPsd(String userPsd) {
-        this.userPsd = userPsd;
-    }
-
-    public String getPayPsd() {
-        return payPsd;
-    }
-
-    public void setPayPsd(String payPsd) {
-        this.payPsd = payPsd;
     }
 
     public String getSex() {
@@ -117,5 +94,37 @@ public class user {
 
     public void setPraise(String praise) {
         this.praise = praise;
+    }
+
+    public String getSignin() {
+        return signin;
+    }
+
+    public void setSignin(String signin) {
+        this.signin = signin;
+    }
+
+    public String getUname() {
+        return uname;
+    }
+
+    public void setUname(String uname) {
+        this.uname = uname;
+    }
+
+    public String getUpsd() {
+        return upsd;
+    }
+
+    public void setUpsd(String upsd) {
+        this.upsd = upsd;
+    }
+
+    public int getPaypsd() {
+        return paypsd;
+    }
+
+    public void setPaypsd(int paypsd) {
+        this.paypsd = paypsd;
     }
 }

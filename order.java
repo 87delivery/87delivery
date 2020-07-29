@@ -6,15 +6,17 @@ public class order {
     int oid;
     String sponsor;
     String accepter;
-    int parcel;
-    int money;
+    int pid;
+    int paymoney;
     String address;
-    String arriveAddress;
-    Date startTime;
-    Date overTime;
+    String arriveaddress;
+    Date starttime;
+    Date overtime;
     String request;
     String comment;
     int star;
+    String appeal;
+    String doappeal;
 
     public int getOid() {
         return oid;
@@ -40,20 +42,12 @@ public class order {
         this.accepter = accepter;
     }
 
-    public int getParcel() {
-        return parcel;
+    public int getPid() {
+        return pid;
     }
 
-    public void setParcel(int parcel) {
-        this.parcel = parcel;
-    }
-
-    public int getMoney() {
-        return money;
-    }
-
-    public void setMoney(int money) {
-        this.money = money;
+    public void setPid(int pid) {
+        this.pid = pid;
     }
 
     public String getAddress() {
@@ -62,30 +56,6 @@ public class order {
 
     public void setAddress(String address) {
         this.address = address;
-    }
-
-    public String getArriveAddress() {
-        return arriveAddress;
-    }
-
-    public void setArriveAddress(String arriveAddress) {
-        this.arriveAddress = arriveAddress;
-    }
-
-    public Date getStartTime() {
-        return startTime;
-    }
-
-    public void setStartTime(Date startTime) {
-        this.startTime = startTime;
-    }
-
-    public Date getOverTime() {
-        return overTime;
-    }
-
-    public void setOverTime(Date overTime) {
-        this.overTime = overTime;
     }
 
     public String getRequest() {
@@ -110,5 +80,53 @@ public class order {
 
     public void setStar(int star) {
         this.star = star;
+    }
+
+    public String getAppeal() {
+        return appeal;
+    }
+
+    public void setAppeal(String appeal) {
+        this.appeal = appeal;
+    }
+
+    public int getPaymoney() {
+        return paymoney;
+    }
+
+    public void setPaymoney(int paymoney) {
+        this.paymoney = paymoney;
+    }
+
+    public String getArriveaddress() {
+        return arriveaddress;
+    }
+
+    public void setArriveaddress(String arriveaddress) {
+        this.arriveaddress = arriveaddress;
+    }
+
+    public Date getStarttime() {
+        return starttime;
+    }
+
+    public void setStarttime(Date starttime) {
+        this.starttime = starttime;
+    }
+
+    public Date getOvertime() {
+        return overtime;
+    }
+
+    public void setOvertime(Date overtime) {
+        this.overtime = overtime;
+    }
+
+    public String getDoappeal() {
+        return doappeal;
+    }
+
+    public void setDoappeal(String doappeal) {
+        this.doappeal = doappeal;
     }
 }
